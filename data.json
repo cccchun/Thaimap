@@ -9,6 +9,61 @@
     "category": "Anda",
     "link": "https://maps.app.goo.gl/2AQD6vq4PLnmd9mf6"
   }
+,
+ {
+    "name": "Chumm Chum Grocery",
+    "lat": 13.7314395,
+    "lng": 100.5827776,
+    "animeImg": "images/andaChumChum Grocery-1.jpg",
+    "realImg": "images/andaChumChum Grocery-2.jpg",
+    "desc": "Anda New kite MV 拍攝地之一",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/uyCqepDZKZkMNRyp6"
+  }
+,
+ {
+    "name": "帕空鮮花市場",
+    "lat": 13.7416425,
+    "lng": 100.4961283,
+    "animeImg": "images/anda flowermarket-1.jpg",
+    "realImg": "images/anda flowermarket-2.jpg",
+    "desc": "Anda cover กีดกัน-如何 拍攝地",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/dkeDkywoWLRPiEYr8"
+  },
+ {
+    "name": "Dragon town",
+    "lat": 13.7408155,
+    "lng": 100.523763,
+    "animeImg": "images/andaredbeancover-1.jpg",
+    "realImg": "images/andaredbeancover-2.jpg",
+    "desc": "Anda cover 紅豆 拍攝地",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/Vfi2q3ApXkyui4td8"
+  },
+   {
+    "name": "朱拉隆功大學100週年紀念公園",
+    "lat": 13.7385596,
+    "lng": 100.5229203,
+    "animeImg": "images/andaI like me better-1.jpg",
+    "realImg": "images/andaI like me better-2.jpg",
+    "desc": "Anda cover I like me better 拍攝地之一",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/e6QFGsCcdz4npELq5"
+  },
+   {
+    "name": "倫批尼公園",
+    "lat": 13.7327274,
+    "lng": 100.5436327,
+    "animeImg": "images/andauncontrolcv-1.jpg",
+    "realImg": "images/andauncontrolcv-2.jpg",
+    "desc": "Anda Uncontrol(Chinese version)拍攝地",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/e6QFGsCcdz4npELq5"
+  }
+
+
+
    ,{
     "name": "Chagô",
     "lat": 13.7445499,
@@ -31,8 +86,8 @@
   }
 ,{
     "name": "Kwong Kee Roast - 鄺記",
-    "lat": 13.7410395,
-    "lng": 100.5230657,
+    "lat": 13.7345314,
+    "lng": 100.525471,
     "animeImg": "images/Ling Kwong Kee Roast-1.jpg",
     "realImg": "images/Ling Kwong Kee Roast-2.jpg",
     "desc": "",
