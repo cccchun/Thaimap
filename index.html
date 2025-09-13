@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>泰百打卡地圖</title>
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+  <!-- AwesomeMarkers CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.awesome-markers@2.0.4/dist/leaflet.awesome-markers.css" />
+
+  <!-- FontAwesome 5 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <style>
+    #map { height: 90vh; }
+   
+
+.popup-img-container {
+  display: flex;        /* 水平排列，左右放 */
+  gap: 10px;            /* 左右圖片間距 */
+  flex-wrap: wrap;      /* 超過寬度自動換行 */
+}
+
+.popup-img {
+  width: 150px;     /* 可調整大小 */
+  height: auto;
+  border-radius: 5px;   /* 可選 */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* 可選 */
+}
+ 
+
+    #buttons { margin: 5px; }
+    button { margin-right: 5px; }
+  </style>
+</head>
+<body>
+  <div id="buttons">
+    <button onclick="filterCategory('all')">全部</button>
+    <button onclick="filterCategory('Anda')">Anda</button>
+    <button onclick="filterCategory('Lookkaew')">Lookkaew</button>
+    <button onclick="filterCategory('Pin')">Pin</button>
+    <button onclick="filterCategory('Noon')">Noon</button>
+    <button onclick="filterCategory('Praewa')">Praewa</button>
+    <button onclick="filterCategory('Orm')">Orm</button>
+    <button onclick="filterCategory('Ling')">Ling</button>
+  </div>
+
+  <div id="map"></div>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+  <!-- AwesomeMarkers JS -->
+  <script src="https://unpkg.com/leaflet.awesome-markers@2.0.4/dist/leaflet.awesome-markers.js"></script>
+
+  <script>
+    // 初始化地圖
+    var map = L.map('map').setView([13.7563, 100.5018], 12);
+
+   // Mapbox 底圖
+L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY2h1bmoiLCJhIjoiY21mZ3NrOTZpMDRnYjJyb2tpd2V4czU2ZyJ9.9vkjFFJ7FE9rFzemAZbBgg', {
+  attribution: '© <a href="https://www.mapbox.com/">Mapbox</a>',
+  tileSize: 512,
+  zoomOffset: -1
+}).addTo(map);
+
+
+    // Marker 顏色對應
+    var colorMap = {
+      "Anda": "lightblue",
+      "Lookkaew": "blue",
+      "Pin":"darkpurple",
+      "Noon": "green",
+      "Praewa": "orange",
+      "Orm": "pink",
+      "Ling":"purple"
+    };
+
+
+
+    // 建立 markers 陣列
+    var markers = [];
+
+    // 載入 JSON
+    fetch('data.json')
+      .then(res => res.json())
+      .then(locations => {
+        locations.forEach(loc => {
+          var popupContent = `<b>${loc.name}</b><br>`;
+          
+          var popupContent = `<b>${loc.name}</b><br>`;
+popupContent += `<table><tr>`;
+if(loc.animeImg) popupContent += `<td><img src="${loc.animeImg}" style="width:150px"></td>`;
+if(loc.realImg) popupContent += `<td><img src="${loc.realImg}" style="width:150px"></td>`;
+popupContent += `</tr></table>`;
+popupContent += `${loc.desc || ''}<br>`;
+if(loc.link) popupContent += `<a href="${loc.link}" target="_blank">google map</a>`;
+
+
+          var markerIcon = L.AwesomeMarkers.icon({
+            icon: 'star',
+            markerColor: colorMap[loc.category] || 'blue',
+            prefix: 'fas' // FontAwesome 5
+          });
+
+          var marker = L.marker([loc.lat, loc.lng], {icon: markerIcon}).bindPopup(popupContent);
+          marker.category = loc.category;
+          marker.addTo(map);
+          markers.push(marker);
+        });
+      })
+      .catch(err => console.error("載入 data.json 發生錯誤:", err));
+
+    // 篩選函式
+    function filterCategory(category) {
+      markers.forEach(marker => {
+        if(category === 'all' || marker.category === category){
+          map.addLayer(marker);
+        } else {
+          map.removeLayer(marker);
+        }
+      });
+    }
+  </script>
+</body>
+</html>
