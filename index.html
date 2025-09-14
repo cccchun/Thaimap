@@ -31,9 +31,12 @@
 }
  
 
+
     #buttons { margin: 5px; }
     button { margin-right: 5px; }
   </style>
+
+
 </head>
 <body>
   <div id="buttons">
@@ -66,13 +69,18 @@ L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/streets-v11/tiles/{z}/{x}/{
 }).addTo(map);
 
 
+
+
+
+
+
     // Marker 顏色對應
     var colorMap = {
       "Anda": "lightblue",
-      "Lookkaew": "blue",
+      "Lookkaew": "lightgreen",
       "Pin":"darkpurple",
       "Noon": "green",
-      "Praewa": "orange",
+      "Praewa": "red",
       "Orm": "pink",
       "Ling":"purple"
     };
@@ -122,6 +130,18 @@ if(loc.link) popupContent += `<a href="${loc.link}" target="_blank">google map</
         }
       });
     }
+
+
+
+
+
+
+
+
+
+
+
+
   </script>
 </body>
 </html>

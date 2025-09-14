@@ -1,4 +1,132 @@
 [
+   {
+    "name": "Sarnies Bangkok",
+    "lat": 13.7212506,
+    "lng": 100.5156997,
+    "animeImg": "images/andasarn-1.jpg",
+    "realImg": "images/andasarn-2.jpg",
+    "desc": "Anda ig 2022年2月22日",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/Kb8XuSYjcm8ad2Lw9"
+  },
+    {
+    "name": "kintaam bkk",
+    "lat": 13.7073147,
+    "lng": 100.5356835,
+    "animeImg": "images/andaice-1.jpg",
+    "realImg": "",
+    "desc": "Anda ig 2023年10月17日",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/YvL9NKm3nqMEo3b79"
+  },
+    {
+    "name": "Song Wat Rd",
+    "lat": 13.7382417,
+    "lng": 100.5072772,
+    "animeImg": "images/andat.jpg",
+    "realImg": "images/andarkn.jpg",
+    "desc": "Anda ig 2023年11月14日",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/1nDvPVmW8TpD9Xow9"
+  },  {
+    "name": "BAD POUTINE",
+    "lat": 13.7381196,
+    "lng": 100.5071335,
+    "animeImg": "images/andabadp-1.jpg",
+    "realImg": "images/andabadp-2.jpg",
+    "desc": "Anda ig 2023年11月13日",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/JijyDAgp2p3bjVfu5"
+  },  {
+    "name": "SIAMSCAPE",
+    "lat": 13.7444914,
+    "lng": 100.5297125,
+    "animeImg": "images/andasiams.jpg",
+    "realImg": "",
+    "desc": "Anda ig 2021年12月8日",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/w6iY49v9pP1iHRfS9"
+  },
+   {
+    "name": "OneSiam Skywalk",
+    "lat": 13.746001,
+    "lng": 100.5307328,
+    "animeImg": "images/andasky.jpg",
+    "realImg": "",
+    "desc": "Anda ig 2021年12月8日",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/NTCWStNtbUNp7ASx8"
+  },
+  
+   {
+    "name": "曼谷大皇宮 Grand Palace",
+    "lat": 13.7531735,
+    "lng": 100.5025527,
+    "animeImg": "images/andatb.jpg",
+    "realImg": "",
+    "desc": "Anda ig 2021年1月1日",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/54nFRVz7U6jHjcVz9"
+  },
+     {
+    "name": "ติ๋มนมสด ประตูผี TimNomSod",
+    "lat": 13.7556496,
+    "lng": 100.5058369,
+    "animeImg": "images/andatns-1.jpg",
+    "realImg": "images/andatns-2.jpg",
+    "desc": "Anda ig 2024年4月25日",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/p6UkhW85PKYwN89j9"
+  },   
+  {
+    "name": "True Digital Park",
+    "lat": 13.6680225,
+    "lng": 100.5895418,
+    "animeImg": "images/andatdp-1.jpg",
+    "realImg": "images/andatdp-2.jpg",
+    "desc": "Anda ig 2023年10月7日",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/Uus2iks1yayhHu7p6"
+  },   {
+    "name": "Marché Thonglor",
+    "lat": 13.7259808,
+    "lng": 100.5790033,
+    "animeImg": "images/andamt-1.jpg",
+    "realImg": "images/andamt-2.jpg",
+    "desc": "Anda ig 2023年10月21日",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/qwFAteKin62qQbJh6"
+  },  
+  {
+    "name": "Floral Café at Napasorn",
+    "lat": 13.7425608,
+    "lng": 100.4963742,
+    "animeImg": "images/andafloral-1.jpg",
+    "realImg": "images/andafloral-2.jpg",
+    "desc": "Anda ig 2024年6月2日",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/Rhg4d6MRKgBpWHxZ9"
+  },
+   {
+    "name": "BONCI",
+    "lat": 13.7736362,
+    "lng": 100.5313565,
+    "animeImg": "images/andabonci-1.jpg",
+    "realImg": "",
+    "desc": "Anda ig 2022年6月5日",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/fcBG3E6CoJUTemrX9"
+  },
+   {
+    "name": "Roots at 111 Praditmanutham",
+    "lat": 13.8064989,
+    "lng": 100.6172228,
+    "animeImg": "images/andaroots-1.jpg",
+    "realImg": "images/andaroots-2.jpg",
+    "desc": "Anda ig 2023年1月6,13日",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/L51btep1D2K9v5k58"
+  },
   {
     "name": "Anunta咖啡廳",
     "lat": 13.7380744,
@@ -8,8 +136,7 @@
     "desc": "Anda開的咖啡廳",
     "category": "Anda",
     "link": "https://maps.app.goo.gl/2AQD6vq4PLnmd9mf6"
-  }
-,
+  },
  {
     "name": "Chumm Chum Grocery",
     "lat": 13.7314395,
@@ -19,8 +146,7 @@
     "desc": "Anda New kite MV 拍攝地之一",
     "category": "Anda",
     "link": "https://maps.app.goo.gl/uyCqepDZKZkMNRyp6"
-  }
-,
+  },
  {
     "name": "帕空鮮花市場",
     "lat": 13.7416425,
@@ -60,14 +186,32 @@
     "desc": "Anda Uncontrol(Chinese version)拍攝地",
     "category": "Anda",
     "link": "https://maps.app.goo.gl/e6QFGsCcdz4npELq5"
+  },
+  {
+    "name": "詩納卡寧威洛大學",
+    "lat": 13.7443893,
+    "lng": 100.5635617,
+    "animeImg": "images/andaschool-1.jpg",
+    "realImg": "",
+    "desc": "Anda和Orm的學校",
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/srTWt6P4dJyjN4Ai9"
   }
+ ,
+  {
+    "name": "學校旁邊的橋",
+    "lat": 13.7472931,
+    "lng": 100.5632349,
+    "animeImg": "images/andaschoolbg-1.jpg",
+    "realImg": "images/andaschoolbg-2.jpg",
 
-
-
-   ,{
+    "category": "Anda",
+    "link": "https://maps.app.goo.gl/ESUXReNrW89DtTeT9"
+  }
+  ,{
     "name": "Chagô",
-    "lat": 13.7445499,
-    "lng": 100.5354918,
+    "lat": 13.7428807,
+    "lng": 100.5334467,
     "animeImg": "images/Orm-1.jpg",
     "realImg": "",
     "desc": "Orm開的飲料店",
