@@ -109,8 +109,8 @@
   },
    {
     "name": "BONCI",
-    "lat": 13.7736362,
-    "lng": 100.5313565,
+    "lat": 13.7906484,
+    "lng": 100.5458075,
     "animeImg": "images/andabonci-1.jpg",
     "realImg": "",
     "desc": "Anda ig 2022年6月5日",
@@ -238,9 +238,126 @@
     "category": "Ling",
     "link": "https://maps.app.goo.gl/E2uJEgEsweW69hAd9"
   }
+,{
+    "name": "Akara Sky Hanuman Bangkok",
+    "lat": 13.7420325,
+    "lng": 100.5436766,
+    "animeImg": "images/ormakara-1.jpg",
+    "realImg": "images/ormakara-2.jpg",
+    "desc": "IG 2025年9月15日",
+    "category": "Orm",
+    "link": "https://maps.app.goo.gl/VCVK4v3Zf33qfLK26"
+  }
+,{
+    "name": "Jurassic World: The Experience Bangkok",
+    "lat": 13.7041192,
+    "lng": 100.4994467,
+    "animeImg": "images/ormdragon-1.jpg",
+    "realImg": "images/ormdragon-2.jpg",
+    "desc": "IG 2025年8月19日",
+    "category": "Orm",
+    "link": "https://maps.app.goo.gl/xGsS7XeSy97o2hhp6"
+  }
+  ,{
+    "name": "Baby Bar Bangkok",
+    "lat": 13.7876502,
+    "lng": 100.5448841,
+    "animeImg": "images/ormbaby-1.jpg",
+    "realImg": "",
+    "desc": "orm ig 2024年10月22日",
+    "category": "Orm",
+    "link": "https://maps.app.goo.gl/nvumkjVopeJy7Pq2A"
+  },
+  {
+    "name": "詩納卡寧威洛大學",
+    "lat": 13.7443255,
+    "lng": 100.5661184,
+    "animeImg": "images/ormschool-1.jpg",
+    "realImg": "images/ormschool-2.jpg",
+    "desc": "Orm的學校",
+    "category": "Orm",
+    "link": "https://maps.app.goo.gl/srTWt6P4dJyjN4Ai9"
+  }
+  ,{
+    "name": "Davin Cafe",
+    "lat": 13.8218568,
+    "lng": 100.6246916,
+    "animeImg": "images/ormdavin-1.jpg",
+    "realImg": "",
+    "desc": "orm ig 2024年9月3日",
+    "category": "Orm",
+    "link": "https://maps.app.goo.gl/22wtp87aSWJoJV5K7"
+  } 
+  ,{
+    "name": "Baan Kang Wat",
+    "lat": 18.7712153,
+    "lng": 99.9203128,
+    "animeImg": "images/ormrkn-1.jpg",
+    "realImg": "images/ormrkn-2.jpg",
+    "desc": "orm ig 2024年6月15日",
+    "category": "Orm",
+    "link": "https://maps.app.goo.gl/eHL12Zdgsyu4wKHv8"
+  }
+   ,{
+    "name": "Wat Pariwat Ratchasongkram",
+    "lat": 13.6745189,
+    "lng": 100.5343311,
+    "animeImg": "images/ormwat.jpg",
+    "realImg": "",
+    "desc": "orm ig 2024年4月12日",
+    "category": "Orm",
+    "link": "https://maps.app.goo.gl/x453asSLb17pcRB2A"
+  }
+ ,{
+    "name": "Fatboy Izakaya",
+    "lat": 13.7234268,
+    "lng": 100.5822743,
+    "animeImg": "images/ormfatboy-1.jpg",
+    "realImg": "images/ormfatboy-2.jpg",
+    "desc": "orm ig 2024年4月11日",
+    "category": "Orm",
+    "link": "https://maps.app.goo.gl/jCfM4vn1oRMxxuYw9"
+  }
+ ,{
+    "name": "Fatboy Izakaya",
+    "lat": 13.7355344,
+    "lng": 100.5503756,
+    "animeImg": "images/ormlazy-1.jpg",
+    "realImg": "images/ormlazy-2.jpg",
+    "desc": "orm ig 2024年4月10日",
+    "category": "Orm",
+    "link": "https://maps.app.goo.gl/UxyhXs3SF8tFT4Fc9"
+  }
 
+,{
+    "name": "THE COFFEE CLUB - River City",
+    "lat": 13.7295078,
+    "lng": 100.513418,
+    "animeImg": "images/ormriver-1.jpg",
+    "realImg": "images/ormriver-2.jpg",
+    "desc": "orm ig 2024年4月8日",
+    "category": "Orm",
+    "link": "https://maps.app.goo.gl/77VE8HkciYmhwJ9H6"
+  }
 
-
-
-
+,{
+    "name": "Thea Cafe",
+    "lat": 13.7280224,
+    "lng": 100.576966,
+    "animeImg": "images/ormcold-1.jpg",
+    "realImg": "images/ormcold-2.jpg",
+    "desc": "orm ig 2024年2月20日",
+    "category": "Orm",
+    "link": "https://maps.app.goo.gl/ECvpJrJjTtHW9auG8"
+  }
+,{
+    "name": "Nusara",
+    "lat": 13.7457026,
+    "lng": 100.4889533,
+    "animeImg": "images/ormnusara-1.jpg",
+    "realImg": "images/ormnusara-2.jpg",
+    "desc": "orm ig 2023年9月27日",
+    "category": "Orm",
+    "link": "https://maps.app.goo.gl/UehTqkLCM2vzRbQb6"
+  }
 ]
